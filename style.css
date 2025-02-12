@@ -144,6 +144,8 @@ img {
 }
 
 .testimonial-img {
+  width: 100%;
+  max-width: 300px;
   height: -webkit-fill-available;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
@@ -158,13 +160,6 @@ img {
 .testimonial-author {
   margin-left: -50px;
 }
-
-.testimonial-img {
-  width: 100%;
-  max-width: 300px;
-  height: -webkit-fill-available;
-}
-
 
 /* CHAIRS */
 .chair-box {
