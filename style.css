@@ -109,9 +109,7 @@ h1 {
 }
 
 img {
-   width: 100%;
-  max-width: 300px;
-  height: auto;
+  width: 100%;
 }
 
 /* FEATURES */
@@ -159,6 +157,12 @@ img {
 
 .testimonial-author {
   margin-left: -50px;
+}
+
+.testimonial-img {
+  width: 100%;
+  max-width: 300px;
+  height: -webkit-fill-available;
 }
 
 
