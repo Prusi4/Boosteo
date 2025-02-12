@@ -22,16 +22,14 @@ FONT SIZE SYSTEM (px)
   color: white !important;
 }
 
-.fas {
-
-}
-
 .navbar li {
   padding-left: 30px;
 }
 
-.navbar-toggler {
+.navbar-nav .nav-link {
+  font-size: 24px;
 }
+
 
 /*.logo-img {
   position: relative;
@@ -58,8 +56,9 @@ section {
   margin-bottom: 48px;
 }
 
-h2 {
+section h2 {
   margin-bottom: 48px;
+  text-align: center;
 }
 
 .grid-3-cols {
@@ -141,6 +140,7 @@ img {
   font-family: 'Dancing Script', cursive;
   padding-top: 20px;
   margin-left: -50px;
+  text-align: initial!important;
 }
 
 .testimonial-img {
@@ -260,5 +260,10 @@ footer {
 
 .next {
   right: 10px;
+}
+
+.bi {
+  color: #087f5b;
+  font-size: 32px;
 }
 
